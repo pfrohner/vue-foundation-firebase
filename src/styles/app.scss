@@ -1,0 +1,8 @@
+@import './settings';
+@import './animations';
+@import './spinner';
+@import '~foundation-sites/scss/foundation';
+//@import '~tiny-date-picker/tiny-date-picker.css';
+
+@include foundation-everything;
+@include foundation-xy-grid-classes;

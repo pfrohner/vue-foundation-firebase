@@ -1,0 +1,16 @@
+{
+  "news" : {
+    "first" : {
+      "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam asperiores, aut consequuntur corporis eum eveniet facilis illo minus, natus optio porro quas qui quia, ratione saepe sit tempora ullam!",
+      "lead" : "This is first news lead",
+      "slug" : "first",
+      "title" : "First news"
+    },
+    "second" : {
+      "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam asperiores, aut consequuntur corporis eum eveniet facilis illo minus, natus optio porro quas qui quia, ratione saepe sit tempora ullam!",
+      "lead" : "Second news lead comes here",
+      "slug" : "second",
+      "title" : "Second news"
+    }
+  }
+}

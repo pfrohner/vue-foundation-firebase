@@ -1,0 +1,63 @@
+.logo {
+	display: block;
+	background-image: url('#{$brandImages}/logo.png');
+	width: 200px;
+	height: 46px;
+
+	@media(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+		//background-image: url('#{$brandImages}/logo-2x.png');
+		background-size: 100%;
+	}
+}
+
+//header {
+//	position: relative;
+//	background-color: $fixedBackground;
+//	width: 100%;
+//	top: 0;
+//	z-index: 4;
+//}
+//
+//nav {
+//	position: relative;
+//	background-color: $fixedBackground;
+//	width: 100%;
+//	bottom: 0;
+//	z-index: 1;
+//}
+//
+//@media only screen and (max-width: 40em) {
+//	.content {
+//		padding-top: $headerHeight;
+//		padding-bottom: $footerHeight;
+//		height: 100vh;
+//		overflow: scroll;
+//	}
+//
+//	header.fixed-on-small {
+//		position: fixed;
+//		height: $headerHeight;
+//	}
+//
+//	nav.fixed-on-small {
+//		position: fixed;
+//		height: $footerHeight;
+//	}
+//}
+//
+//.loading {
+//	//position: absolute;
+//	//top: 50%;
+//	//left: 50%;
+//	//transform: translate(-50%, -50%);
+//}
+//
+//// TODO: find a better place
+//// fix for foundation's orbit height issue after resize: https://github.com/zurb/foundation-sites/issues/7815
+//ul.orbit-container {
+//	height: auto !important;
+//}
+//
+//li.orbit-slide {
+//	max-height: none !important;
+//}
